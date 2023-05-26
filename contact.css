@@ -1,0 +1,58 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fcebffc0;    
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+    background-color: #83b6ec;
+    font-family: 'Poppins',sans-serif;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    color: #000;
+  }
+  .logo img {
+
+    height: 3.4vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+    
+  footer{
+    display: flex;
+    background-color: #cbe2f9; 
+    margin: 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Github {
+  margin: 10px;
+  padding: 20px;
+  }
+  .active {
+    
+    color: black;
+  
+  }

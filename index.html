@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Sahil-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css">
+  
+    
+    
+    
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="Sahil Khan.png" alt=""></div>
+        <div class="right" >
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+           
+          </ul>
+         
+        </div>
+       
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="purple">Sahil</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="button"></div>       
+         
+          <button class="btn" onclick="visitGitHub()">Visit GitHub</button>
+
+<script>
+  function visitGitHub() {
+    window.location.href = "https://github.com/Sahil423Khan";
+  }
+</script>
+          
+        </div>
+        </div>
+        <div class="rightSection">
+          <img src="Developer.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <!-- <section class="secondSection">
+        <span class="text-gray">What I had done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="img/html.jpg" alt="" />
+            <div class="vertical-text">HTML Developer</div>
+            <div class="vertical-description text-gray">
+           
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="img/css.png" alt="" />
+            <div class="vertical-text">HTML Developer</div>
+            <div class="vertical-description text-gray">
+          
+            </div>
+          </div>          
+      </section> -->
+    </main>
+   
+   
+   
+  
+  
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 125,
+      });
+    </script>
+      <footer>
+        <div class="footer"></div>
+      
+          <div class="footer-first">
+            copywright &copy; Sahil Portfolio 
+          </div>
+         
+     
+    </footer>
+
+
+    
+  </body>
+</html>
