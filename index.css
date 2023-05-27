@@ -91,9 +91,12 @@ header{
 #element {
   color: rgb(169, 78, 255);
 }
-.rightSection{
+/* .rightSection{
   width: 550vw;
   height: auto;
+} */
+.rightSection img{
+  width: 38vw;
 }
 
 /* .secondSection {
@@ -166,4 +169,59 @@ footer {
 
   color: #000000;
 
+}
+@media(max-width : 600px)
+{
+  .leftSection
+   {
+    font-size: 1.5rem;
+   }
+   .firstSection>div 
+   {
+    width: 50%;
+   }
+   ul 
+   {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0.5rem;
+   }
+   nav{
+    height: 10vw;
+   }
+   .logo img{
+    
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+  
+  
+}
+@media(max-width : 400px){
+  .leftSection
+  {
+   font-size: 1rem;
+  }
+  .firstSection>div 
+  {
+   width: 60%;
+  }
+  ul 
+  {
+   display: flex;
+   flex-wrap: nowrap;
+   font-size: 0.3rem;
+  }
+  nav{
+   height: 10vw;
+  }
+  .logo img{
+   
+   height: 3vw;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+  }
 }
